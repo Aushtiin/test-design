@@ -1,38 +1,100 @@
-.App {
+.ghostPage {
+  background: #f8fafb;
+  height: 100vh;
+}
+
+.form {
+  position: relative;
+  padding-top: 50px;
+}
+
+.input-field {
+  width: 80%;
+  padding: 10px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.input {
+  border: whitesmoke;
+  width: 300px;
+  height: 12vh;
+  position: relative;
+  padding: 10px;
+  color: grey;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.input-container {
+  width: fit-content;
+  background: white;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.smlinks {
+  position: relative;
+  top: 70px;
+}
+
+.smlinks > p {
+  font-weight: 10;
+  font-size: small;
+}
+
+#thisthat {
+  vertical-align: middle;
+  background: #3b5998;
   color: white;
+  border-radius: 50%;
+  text-align: center;
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
 }
 
-.App-link {
-  color: #61dafb;
+.fab {
+  font-size: 20px;
+  background: #1da1f2;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  line-height: 40px;
+  vertical-align: middle;
+  color: white;
+  position: relative;
+  left: 30px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.thisthose > img{
+  background: rgba(211, 207, 207, 0.685);
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  vertical-align: middle;
+  position: relative;
+  left: 15px;
+  
+}
+
+.btn{
+  position: relative;
+  top: 20px
+}
+
+.under{
+  position: relative;
+  left: 30px;
+  top: 10px;
+  font-weight: 100;
+}
+
+.underthis{
+  position: relative;
+  top: 10px; 
+  font-weight: 100;
+}
+
+.input-icon{
+  position: relative;
+  top: 5px;
+  left: 3px;
 }
